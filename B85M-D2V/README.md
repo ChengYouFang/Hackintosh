@@ -1,8 +1,19 @@
+# BIOS
+- VT-d：Disabled
+- SATA Mode：AHCI Mode
+- Windows 8 Features：Other OS
+- XHCI Hand-off：Enabled
+- Boot Mode Selection：UEFI and Legacy
+- Storage Boot Option Control：UEFI Only
+- SerialPort：Disabled
+
+
 # Hardware
-- CPU:I3-4160
+- CPU：I3-4160
 - MB：B85M-D2V
-- GPU:HD 4400
-- RAM:ADATA DDR3 1333 4G
+- GPU：HD 4400
+- RAM：ADATA DDR3 1333 4G
+- BIOS Version：F7
 
 
 # Other Driver
