@@ -3,7 +3,6 @@
 
 # BIOS
 - VT-d：Disabled
-- Fast Boot：Disabled
 - Boot Mode Selection：UEFI and Legacy
 - Storage Boot Option Control：UEFI First
 - Windows 8 Features：Other OS
