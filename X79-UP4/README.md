@@ -1,3 +1,6 @@
+#OS X
+- 10.11.6
+
 # BIOS
 - VT-d：Disabled
 - Fast Boot：Disabled
