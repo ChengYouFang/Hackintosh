@@ -24,3 +24,4 @@
 # Other Driver
 * [Clover OS X El Capitan-V5](http://www.insanelymac.com/forum/index.php?app=core&module=attach&section=attach&attach_id=170016)
 * [Nvidia Web Driver](http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.15f01/WebDriver-346.03.15f01.pkg)
+* [USB3.0 Driver](http://www.insanelymac.com/forum/files/download/475-fl1009-usb-30-el-capitan-1011/)
