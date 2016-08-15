@@ -1,3 +1,8 @@
+# OS X
+- 10.11.4
+- 10.11.5
+- 10.11.6
+
 # BIOS
 - VT-d：Disabled
 - SATA Mode：AHCI Mode
