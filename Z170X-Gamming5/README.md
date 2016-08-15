@@ -1,3 +1,12 @@
+# BIOS
+- VT-d：Disabled
+- SATA Mode：AHCI Mode
+- Windows 8 Features：Other OS
+- XHCI Hand-off：Enabled
+- Boot Mode Selection：UEFI and Legacy
+- Storage Boot Option Control：UEFI Only
+- SerialPort：Disabled
+
 # Hardware
 - CPU:I5-6600K
 - MB：Z170X-Gamming 5
