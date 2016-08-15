@@ -3,8 +3,8 @@
 
 # BIOS
 - VT-d：Disabled
-- Boot Mode Selection：UEFI and Legacy
-- Storage Boot Option Control：UEFI First
+- Boot Mode Selection：UEFI Only
+- Storage Boot Option Control：UEFI Only
 - Windows 8 Features：Other OS
 - XHCI Hand-off：Enabled
 - USB3.0 Support：Disabled
