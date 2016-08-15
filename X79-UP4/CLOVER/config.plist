@@ -66,13 +66,13 @@
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>Cpu0Ist</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>Cpu0Ist</string>
+				<string>CpuPm</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
@@ -94,7 +94,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x3000 nvda_drv=1 kext-dev-mode=1 rootless=0</string>
+		<string>-v npci=0x3000 nv_disable=1 kext-dev-mode=1 rootless=0</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -112,8 +112,6 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
-		<key>FrequencyMHz</key>
-		<integer>3700</integer>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -161,7 +159,7 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>\EFI\BOOT\BOOTX64.EFI</string>
+			<string>\EFI\BOOT\BOOTX64.efi</string>
 			<string>Windows</string>
 		</array>
 		<key>Language</key>
@@ -189,7 +187,7 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>1280x1024</string>
 		<key>Theme</key>
 		<string>embedded</string>
 	</dict>
