@@ -16,4 +16,8 @@
 - MB：Z170-AR
 - GPU：ASUS GTX 1070-O8G 8G DDR5
 - RAM：Kingston DDR4 2400 16G * 2
+- SSD：Plextor M8PeY 512GB
 - BIOS Version: N/A
+
+# Other Driver
+- [NVMe Driver](http://www.macvidcards.com/uploads/2/7/6/8/27683275/nvme_for_osx.zip)
