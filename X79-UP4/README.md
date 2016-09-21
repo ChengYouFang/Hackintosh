@@ -19,7 +19,7 @@
 - MB：X79-UP4
 - GPU：ASUS Nvidia GTX 670 4G DDR5
 - RAM：Kingston DDR3 1866 8G * 2
-- BIOS Version：F7
+- BIOS Version：F5/F7
 
 # Other Driver
 * [Clover OS X El Capitan-V5](http://www.insanelymac.com/forum/index.php?app=core&module=attach&section=attach&attach_id=170016)
