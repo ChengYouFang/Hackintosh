@@ -4,6 +4,7 @@
 # BIOS
 - VT-d：Disabled
 - Boot Device Control：UEFI and Legacy OPROM
+- Legacy USB Support：Auto
 - Boot from Storage Devices：UEFI driver first
 - Boot from PCIe/PCI Expansion Devices：UEFI driver first
 - OS Type：Other OS
