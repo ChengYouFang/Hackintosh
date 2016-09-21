@@ -10,7 +10,7 @@
 - OS Type：Other OS
 - XHCI Hand-off：Enabled
 - SATA Mode：AHCI Mode
-- erialPort：Off
+- SerialPort：Off
 
 # Hardware
 - CPU：I7-6700
