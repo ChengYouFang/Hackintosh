@@ -3,7 +3,6 @@
 
 # BIOS
 - VT-d：Disabled
-- Intel Virtualization Technology：Disabled
 - Boot Device Control：UEFI and Legacy OPROM
 - Boot from Storage Devices：UEFI driver first
 - Boot from PCIe/PCI Expansion Devices：UEFI driver first
