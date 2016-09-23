@@ -26,3 +26,5 @@
 * [Nvidia Web Driver](http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.15f01/WebDriver-346.03.15f01.pkg)
 * [USB3.0 Driver](http://www.insanelymac.com/forum/files/download/475-fl1009-usb-30-el-capitan-1011/)
 
+# Download
+* [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/X79-UP4.rar) 
