@@ -14,8 +14,8 @@
 
 # Hardware
 - CPU:I5-6600K
-- MB：Z170X-Gamming 5
-- GPU:ATI R7 370 2GB
+- MB：Z170X-Gaming 5
+- GPU:Nvidia GTX 1060 6G
 - RAM：Kingston DDR4 2133 8G * 2
 
 # Other Driver

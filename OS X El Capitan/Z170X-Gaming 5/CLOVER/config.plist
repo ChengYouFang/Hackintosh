@@ -17,6 +17,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -29,6 +31,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUhDMQ==
@@ -41,6 +45,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUhDMg==
@@ -53,6 +59,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>Rename HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					SERBUw==
@@ -70,10 +78,6 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>Cpu0Ist</string>
@@ -83,6 +87,10 @@
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>CpuPm</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
 			</dict>
 		</array>
 		<key>PatchAPIC</key>
@@ -124,6 +132,8 @@
 	<dict>
 		<key>FrequencyMHz</key>
 		<integer>3500</integer>
+		<key>UseARTFrequency</key>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -193,6 +203,8 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -203,12 +215,10 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>DualLink</key>
-		<integer>1</integer>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<true/>
+			<false/>
 			<key>Intel</key>
 			<false/>
 			<key>NVidia</key>
@@ -237,7 +247,25 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Skylake IntelAccelerator Patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				uAAAEhk=
+				</data>
+				<key>Name</key>
+				<string>AppleIntelSKLGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				uAEAEhk=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Skylake APIC Patch by Piker's Alpha</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				wegQD7bw
@@ -252,6 +280,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>Raise USB Port Limit</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				g72M/v//EA==
@@ -263,20 +293,6 @@
 				g72M/v//FQ==
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Skylake IntelAccelerator Patch</string>
-				<key>Find</key>
-				<data>
-				uAAAEhk=
-				</data>
-				<key>Name</key>
-				<string>AppleIntelSKLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				uAEAEhk=
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -285,57 +301,16 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
-		<key>MLB</key>
-		<string>C02XXXXXXXXXXXXX7</string>
-		<key>ROM</key>
-		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>09/22/2015</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>IM171.88Z.0105.B00.1509221819</string>
-		<key>Board-ID</key>
-		<string>Mac-65CE76090165799A</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>iMac17,1</string>
-		<key>ChassisAssetTag</key>
-		<string></string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>13</string>
-		<key>Family</key>
-		<string>iMac</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Channels</key>
-			<integer>0</integer>
-		</dict>
-		<key>ProductName</key>
-		<string>iMac17,1</string>
-		<key>SerialNumber</key>
-		<string>C02XXXXXXXXL</string>
 		<key>Trust</key>
-		<true/>
-		<key>Version</key>
-		<string>1.0</string>
+		<false/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
