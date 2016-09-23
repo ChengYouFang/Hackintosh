@@ -32,4 +32,4 @@
 - 請設定好SMBIOS/Memory
 
 # Download
-* [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/B85M-D2V.rar) 
+* [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/B85M-D2V.zip) 
