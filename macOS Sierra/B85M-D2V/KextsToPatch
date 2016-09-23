@@ -1,0 +1,32 @@
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>10.11-AppleHDA/Realtek ALC...</string>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>gxnUEQ==</data>
+				<key>Replace</key>
+				<data>AAAAAA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.9-10.11-AppleHDA/Realtek ALC887</string>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>ixnUEQ==</data>
+				<key>Replace</key>
+				<data>hwjsEA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AppleHDA/Resources/xml&gt;zml</string>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Find</key>
+				<data>eG1sLnps</data>
+				<key>Replace</key>
+				<data>em1sLnps</data>
+			</dict>
+		</array>
