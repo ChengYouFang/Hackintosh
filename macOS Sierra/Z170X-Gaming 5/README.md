@@ -1,5 +1,5 @@
 # OS X
-- 10.12.1
+- 10.12
 
 # BIOS
 - VT-d：Disabled
