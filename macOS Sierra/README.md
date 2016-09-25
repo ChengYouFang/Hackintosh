@@ -3,3 +3,4 @@
 - B85M-D2V
 - X79-UP4
 - B75M-D3H
+- P8H61M-LE
