@@ -2,4 +2,5 @@
 - Z170X-Gaming 5
 - X79-UP4
 - B85M-D2V
-- Z170-AR 
+- Z170-AR
+- B75M-D3H
