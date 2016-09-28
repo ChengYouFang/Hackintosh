@@ -19,7 +19,11 @@
 # Other Driver
 * [I219-V](https://bitbucket.org/RehabMan/os-x-intel-network/downloads) 
 * [Audio](https://sourceforge.net/projects/voodoohda/files/?source=navbar) 
-* [GPU](https://cyfangnotepad.blogspot.tw/2016/05/fix-amd-r7-370-7mb-for-os-x-el-capitan.html)
+* [GPU](http://us.download.nvidia.com/Mac/Quadro_Certified/367.15.10.05f01/WebDriver-367.15.10.05f01.pkg)
+* [Audio](https://github.com/toleda/audio_CloverALC)
+
+# Issue
+- GTX 1060 is not supported
 
 # Download
 * [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/Z170X-Gaming%205_macOS%20Sierra.zip) 
