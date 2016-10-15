@@ -11,15 +11,17 @@
 - XHCI Hand-off：Enabled
 - SATA Mode：AHCI Mode
 - SerialPort：Off
-- Primary Display Auto：Auto
+- Primary Display Auto：CPU Graphics
+- iGpu Multi-Monitor：Enabled
+- DVMT Pre-Allocated：64MB
 
 # Hardware
 - CPU：I7-6700K
 - MB：Z170 PRO GAMING/AURA
-- GPU：HD 530 1536 MB/ ASUS GTX 1070-8G 8G DDR5
+- GPU：HD 530 1536 MB HDMI/ ASUS GTX 1070-8G 8G DDR5
 - RAM：G.SKILL DDR4 3600 CL17 Ripjaws V 8G * 2
 - SSD：Micron M4 64G
-- BIOS Version: N/A
+- BIOS Version: 2003
 
 # Other Driver
 - [Intel 219V Driver](https://bitbucket.org/RehabMan/os-x-intel-network/downloads/RehabMan-IntelMausiEthernet-v2-2016-0419.zip)
