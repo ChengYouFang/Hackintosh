@@ -32,4 +32,4 @@
 # Download
 * [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/Z170%20PRO%20GAMING%20AURA.zip)
 
-![](./螢幕快照 2016-10-14 下午5.33.34.png= 586x357)
+![](./info.png)
