@@ -5,7 +5,7 @@
 # BIOS
 - VT-d：Disabled
 - SATA Mode Selection：AHCI Mode
-- Windows 8 Features：Other OS
+- OS Type：Other OS
 - XHCI Hand-off：Enabled
 - Boot Devices Control：UEFI Only
 - Boot from Storage Devices：UEFI driver first
