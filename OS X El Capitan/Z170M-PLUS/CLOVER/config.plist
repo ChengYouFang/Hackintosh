@@ -61,6 +61,23 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Rename HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -68,7 +85,9 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>DMAR</string>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>CpuPm</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
@@ -78,9 +97,7 @@
 			</dict>
 			<dict>
 				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>DMAR</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -145,8 +162,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>\EFI\BOOT\BOOTX64.efi</string>
 			<string>Windows</string>
+			<string>\EFI\BOOT\BOOTX64.efi</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -237,6 +254,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>10.11-SKL-1912000-4_displays</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AQMDAw==
+				</data>
+				<key>Name</key>
+				<string>AppleIntelSKLGraphicsFramebuffer</string>
+				<key>Replace</key>
+				<data>
+				AQMEAw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>External icons patch</string>
 				<key>Disabled</key>
 				<false/>
@@ -253,18 +286,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10.11-SKL-1912000-4_displays</string>
+				<string>change 15 port limit to 30 in AppleUSBXHCIPCI</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				AQMDAw==
+				g72M/v//EA==
 				</data>
 				<key>Name</key>
-				<string>AppleIntelSKLGraphicsFramebuffer</string>
+				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
 				<data>
-				AQMEAw==
+				g72M/v//Hw==
 				</data>
 			</dict>
 		</array>
