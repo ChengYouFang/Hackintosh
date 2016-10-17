@@ -3,23 +3,23 @@
 
 
 # BIOS
-- Intel Virtualization Technology = Enabled
-- VT-d = Disabled
-- iGPU Multi-Monitor = Enabled
-- SATA mode Selection = AHCI
-- Legacy USB Support = Auto
-- XHCI Hand-off = Enabled
-- Serial Port Configuration = Disabled
-- Parallel Port Configuration = Disabled
-- Boot Devices Control = UEFI and Legacy OpRom
-- Boot from Stroage Devices = UEFI only
-
+- Intel Virtualization Technology：Enabled
+- VT-d：Disabled
+- iGPU Multi-Monitor：Enabled
+- SATA mode Selection：AHCI
+- Legacy USB Support：Auto
+- XHCI Hand-off：Enabled
+- Serial Port Configuration：Disabled
+- Parallel Port Configuration：Disabled
+- Boot Devices Control：UEFI and Legacy OpRom
+- Boot from Stroage Devices：UEFI only
+- OS Type：Other OS
 
 
 # Hardware
-- CPU:I5-6500
+- CPU：I5-6500
 - MB：Z170M-PLUS
-- GPU:ATI R9 380 4G
+- GPU：ATI R9 380 4G
 - RAM：Kingston DDR4 2666 8G * 2
 
 
@@ -31,4 +31,4 @@
 
 
 # Download
-* [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/Z170M-Plus.zip) 
+* [All Files]() 
