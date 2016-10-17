@@ -68,6 +68,10 @@
 		<array>
 			<dict>
 				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>CpuPm</string>
@@ -77,10 +81,6 @@
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>Cpu0Ist</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -140,8 +140,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
 			<string>\EFI\BOOT\BOOTX64.efi</string>
+			<string>Windows</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -152,7 +152,7 @@
 			<key>Enabled</key>
 			<true/>
 			<key>Mirror</key>
-			<true/>
+			<false/>
 			<key>Speed</key>
 			<integer>8</integer>
 		</dict>
@@ -194,26 +194,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
-		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-		</array>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
