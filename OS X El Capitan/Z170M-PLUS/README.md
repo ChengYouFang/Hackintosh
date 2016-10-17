@@ -3,14 +3,16 @@
 
 
 # BIOS
-- VT-d：Disabled
-- SATA Mode Selection：AHCI Mode
-- OS Type：Other OS
-- XHCI Hand-off：Enabled
-- Boot Devices Control：UEFI Only
-- Boot from Storage Devices：UEFI driver first
-- Serial Port：Disabled
-- Legacy USB Support：Auto
+- Intel Virtualization Technology = Enabled
+- VT-d = Disabled
+- iGPU Multi-Monitor = Enabled
+- SATA mode Selection = AHCI
+- Legacy USB Support = Auto
+- XHCI Hand-off = Enabled
+- Serial Port Configuration = Disabled
+- Parallel Port Configuration = Disabled
+- Boot Devices Control = UEFI and Legacy OpRom
+- Boot from Stroage Devices = UEFI only
 
 
 
