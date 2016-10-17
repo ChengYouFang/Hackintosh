@@ -85,9 +85,7 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>DMAR</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
@@ -97,7 +95,9 @@
 			</dict>
 			<dict>
 				<key>Signature</key>
-				<string>DMAR</string>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>CpuPm</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -162,8 +162,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
 			<string>\EFI\BOOT\BOOTX64.efi</string>
+			<string>Windows</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -196,6 +196,8 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>FBName</key>
+		<string>Greyhound</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -215,9 +217,9 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>ATIConnectorsController</key>
-		<string>8000</string>
+		<string>9000</string>
 		<key>ATIConnectorsData</key>
-		<string>000400000403000000010300120403030004000004030000000101001102010100040000040300000001020021030202000400000403000000010400220504040004000004030000000105001000050500040000040300000001060020010606d3921a0000000000df921a00000000001f0000000300000001000000000000007c000000000000407d00000004031840</string>
+		<string>00040000040300000001010710000103000400000403000000010207200102040004000004030000000103071102030100040000040300000001040721030402000400000403000000010507120405050004000004030000000106072205060645821a000000000056821a000000000067821a000000000078821a000000000000040000040300000001030012040303</string>
 		<key>ATIConnectorsPatch</key>
 		<string>000400000406000000010000000000001102010100000000000800000402000000710000000000002103020300000000040000001400000000010000000000001000030500000000040000001402000000010000000000000004040600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</string>
 		<key>AppleRTC</key>
@@ -238,34 +240,18 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Skylake APIC fix, discovered by Pike R. Alpha</string>
+				<string>change 15 port limit to 30 in AppleUSBXHCIPCI</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				wegQD7bw
+				g72M/v//EA==
 				</data>
 				<key>Name</key>
-				<string>AppleAPIC</string>
+				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
 				<data>
-				vhcAAACQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.11-SKL-1912000-4_displays</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQMDAw==
-				</data>
-				<key>Name</key>
-				<string>AppleIntelSKLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AQMEAw==
+				g72M/v//Hw==
 				</data>
 			</dict>
 			<dict>
@@ -286,18 +272,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change 15 port limit to 30 in AppleUSBXHCIPCI</string>
+				<string>Skylake APIC fix, discovered by Pike R. Alpha</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g72M/v//EA==
+				wegQD7bw
 				</data>
 				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
+				<string>AppleAPIC</string>
 				<key>Replace</key>
 				<data>
-				g72M/v//Hw==
+				vhcAAACQ
 				</data>
 			</dict>
 		</array>
