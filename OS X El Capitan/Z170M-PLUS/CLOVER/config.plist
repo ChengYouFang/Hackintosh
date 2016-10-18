@@ -68,10 +68,6 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>CpuPm</string>
@@ -81,6 +77,10 @@
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>Cpu0Ist</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -140,8 +140,8 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
 			<string>\EFI\BOOT\BOOTX64.efi</string>
+			<string>Windows</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -208,18 +208,34 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Skylake APIC fix, discovered by Pike R. Alpha</string>
+				<string>10.11-SKL-1912000-4_displays</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				wegQD7bw
+				AQMDAw==
 				</data>
 				<key>Name</key>
-				<string>AppleAPIC</string>
+				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
-				vhcAAACQ
+				AQMEAw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>change 15 port limit to 30 in AppleUSBXHCIPCI</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g72M/v//EA==
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>
+				g72M/v//Hw==
 				</data>
 			</dict>
 			<dict>
@@ -256,18 +272,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change 15 port limit to 30 in AppleUSBXHCIPCI</string>
+				<string>Skylake APIC fix, discovered by Pike R. Alpha</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g72M/v//EA==
+				wegQD7bw
 				</data>
 				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
+				<string>AppleAPIC</string>
 				<key>Replace</key>
 				<data>
-				g72M/v//Hw==
+				vhcAAACQ
 				</data>
 			</dict>
 		</array>

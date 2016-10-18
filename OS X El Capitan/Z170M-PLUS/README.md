@@ -19,7 +19,7 @@
 # Hardware
 - CPU：I5-6500
 - MB：Z170M-PLUS
-- GPU：ATI R9 380 4G
+- GPU：ATI 7770 1G
 - RAM：Kingston DDR4 2666 8G * 2
 
 
