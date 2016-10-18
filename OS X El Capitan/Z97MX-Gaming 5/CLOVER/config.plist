@@ -44,6 +44,12 @@
 		<array>
 			<dict>
 				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>CpuPm</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
 				<string>DMAR</string>
 			</dict>
 			<dict>
@@ -51,12 +57,6 @@
 				<string>SSDT</string>
 				<key>TableId</key>
 				<string>Cpu0Ist</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
 			</dict>
 		</array>
 		<key>HaltEnabler</key>
@@ -72,7 +72,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 nv_disable=1</string>
+		<string>-v dart=0 nv_disable=1 kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -173,6 +173,22 @@
 		<false/>
 		<key>KextsToPatch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Raise USB Port Limit</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g72M/v//EA==
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>
+				g72M/v//FQ==
+				</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
