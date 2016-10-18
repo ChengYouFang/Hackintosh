@@ -9,3 +9,4 @@
 - Z170M-Plus
 - H81M-E
 - B150M-D3H
+- Z97MX-Gaming 5
