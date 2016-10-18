@@ -3,13 +3,12 @@
 
 
 # BIOS
-- Extreme Memory Profile (X.M.P.) = Profile1 or Profile2 or disabled
+- Extreme Memory Profile (X.M.P.) = Profile1
 - Memory Enhancement Settings = Enhanced Stability
 - Fast Boot = Disabled
 - VT-d = Disabled
 - Boot Mode Selection = UEFI Only
 - Storage Boot Option Control = UEFI First
-- XHCI Mode = Enabled
 - Legacy USB Support  = Auto
 - XHCI Hand-of = Enabled
 - SATA Mode Selection = AHCI
