@@ -12,6 +12,7 @@
 - Fast Boot：Disabled
 - Boot Device Control：UEFI and Legacy OPROM
 - Boot from Stroage Devices：BOTH, UEFI First
+- Intel Virtualization Technology：Enabled
 
 
 # Hardware
