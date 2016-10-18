@@ -7,14 +7,13 @@
 - Memory Enhancement Settings = Enhanced Stability
 - Fast Boot = Disabled
 - VT-d = Disabled
-- Boot Mode Selection = UEFI Only
+- Boot Mode Selection = UEFI and Legacy
 - Storage Boot Option Control = UEFI First
 - Legacy USB Support  = Auto
 - XHCI Hand-of = Enabled
 - SATA Mode Selection = AHCI
-- Serial Port = Disabled
 - Intel Processor Graphics = Disabled
-
+- Other Type = Other OS
 
 # Hardware
 - CPU：I5-4440
