@@ -10,7 +10,7 @@
 - Boot Mode Selection = UEFI and Legacy
 - Storage Boot Option Control = UEFI First
 - Legacy USB Support  = Auto
-- XHCI Mode = Enabled
+- XHCI Mode = Smart Auto
 - XHCI Hand-of = Enabled
 - SATA Mode Selection = AHCI
 - Intel Processor Graphics = Disabled
