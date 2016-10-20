@@ -159,7 +159,7 @@
 		<key>AppleRTC</key>
 		<true/>
 		<key>AsusAICPUPM</key>
-		<false/>
+		<true/>
 		<key>Debug</key>
 		<false/>
 		<key>KernelCpu</key>
@@ -174,22 +174,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Increase 15 port limit to 30 in AppleUSBXHCIPCI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g72M/v//EA==
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
-				<key>Replace</key>
-				<data>
-				g72M/v//Hw==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>(c)Pike R. Alpha</string>
 				<key>Disabled</key>
 				<false/>
@@ -202,6 +186,22 @@
 				<key>Replace</key>
 				<data>
 				Ym9hcmQtaXg=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Increase 15 port limit to 30 in AppleUSBXHCIPCI</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				g72M/v//EA==
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>
+				g72M/v//Hw==
 				</data>
 			</dict>
 			<dict>

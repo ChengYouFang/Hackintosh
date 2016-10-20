@@ -10,3 +10,4 @@
 - H81M-E
 - B150M-D3H
 - Z97MX-Gaming 5
+- Z170-HD3 DDR3
