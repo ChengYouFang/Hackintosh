@@ -43,7 +43,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 nv_disable=1 kext-dev-mode=1</string>
+		<string>-v dart=0 kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -152,7 +152,7 @@
 			<false/>
 		</dict>
 		<key>NvidiaSingle</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -174,22 +174,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>(c)Pike R. Alpha</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				Ym9hcmQtaWQ=
-				</data>
-				<key>Name</key>
-				<string>AppleGraphicsDevicePolicy</string>
-				<key>Replace</key>
-				<data>
-				Ym9hcmQtaXg=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Increase 15 port limit to 30 in AppleUSBXHCIPCI</string>
 				<key>Disabled</key>
 				<false/>
@@ -202,6 +186,22 @@
 				<key>Replace</key>
 				<data>
 				g72M/v//Hw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>(c)Pike R. Alpha</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				Ym9hcmQtaWQ=
+				</data>
+				<key>Name</key>
+				<string>AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>
+				Ym9hcmQtaXg=
 				</data>
 			</dict>
 			<dict>

@@ -12,23 +12,6 @@
 			<false/>
 			<key>Name</key>
 			<string>DSDT.aml</string>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -43,7 +26,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 nv_disable=1 kext-dev-mode=1</string>
+		<string>-v dart=0 kext-dev-mode=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -152,7 +135,7 @@
 			<false/>
 		</dict>
 		<key>NvidiaSingle</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -174,18 +157,18 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Increase 15 port limit to 30 in AppleUSBXHCIPCI</string>
+				<string>(c)Pike R. Alpha</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g72M/v//EA==
+				Ym9hcmQtaWQ=
 				</data>
 				<key>Name</key>
-				<string>AppleUSBXHCIPCI</string>
+				<string>AppleGraphicsDevicePolicy</string>
 				<key>Replace</key>
 				<data>
-				g72M/v//Hw==
+				Ym9hcmQtaXg=
 				</data>
 			</dict>
 			<dict>
@@ -206,18 +189,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>(c)Pike R. Alpha</string>
+				<string>Increase 15 port limit to 30 in AppleUSBXHCIPCI</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				Ym9hcmQtaWQ=
+				g72M/v//EA==
 				</data>
 				<key>Name</key>
-				<string>AppleGraphicsDevicePolicy</string>
+				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
 				<data>
-				Ym9hcmQtaXg=
+				g72M/v//Hw==
 				</data>
 			</dict>
 		</array>

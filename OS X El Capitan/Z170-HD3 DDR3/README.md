@@ -17,9 +17,9 @@
 # Hardware
 - CPU：I5-6500
 - MB：Z170-HD3 DDR3
-- GPU：GTX 770
+- GPU：Nvidia GTX 770 4G
 - RAM：Kingston DDR3 1600 8G
-- Network：BCM94360CD PCI-E
+- Network：BCM94360CD PCI-E / Realtek RTL8111HS
 
 
 # Other Driver
@@ -31,5 +31,6 @@
 
 # Download
 * [All Files](https://bitbucket.org/ChengYouFang/hackintosh/downloads/Z170-HD3%20DDR3.zip)
+
 
 ![]()
