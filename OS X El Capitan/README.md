@@ -11,3 +11,4 @@
 - B150M-D3H
 - Z97MX-Gaming 5
 - Z170-HD3 DDR3
+- P8H61M-LX Plus
