@@ -8,3 +8,4 @@
 - H81M-E
 - Z170-HD3 DDR3
 - P8H61M-LX Plus
+- G1.Sniper M7
