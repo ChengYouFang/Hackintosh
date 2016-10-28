@@ -16,7 +16,7 @@
 - GPU：Nvidia  Quadro K1200 4G
 - RAM：Transcend DDR4 2133 16G * 2
 - Bluetooth：BCM94360CD
-- SSD：Sandisk X400
+- SSD：Sandisk X400 256G / Plextor M8PeY 512G
 
 
 # Other Driver
@@ -24,7 +24,7 @@
 * [I219V](https://bitbucket.org/RehabMan/os-x-intel-network/downloads/RehabMan-IntelMausiEthernet-v2-2016-0107.zip)
 * [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/RehabMan-USBInjectAll-2016-0907.zip)
 * [M8PeY](http://www.macvidcards.com/uploads/2/7/6/8/27683275/nvme_for_osx.zip)
-* [Bluetooth](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/RehabMan-BrcmPatchRAM-2016-0705.zip)
+* [Bluetooth](http://cyfangnotepad.blogspot.tw/2016/10/os-x-el-capitan-1011-enabled-bcm94360cd.html)
 
 
 # Download
