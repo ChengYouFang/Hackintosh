@@ -15,7 +15,7 @@
 - CPU：Core2 Duo Processor E7500
 - MB：P5P43TD
 - GPU：Nvidia Quadro 600 512M
-- RAM：ADATA DDR3 1066 4G
+- RAM：ADATA DDR3 1333 4G
 - BIOS Version：0502
 
 
