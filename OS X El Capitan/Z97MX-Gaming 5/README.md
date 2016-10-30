@@ -31,7 +31,6 @@
 * [FakeSMC](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/RehabMan-FakeSMC-2016-0908.zip)
 * [HFSPlus.efi](https://github.com/JrCs/CloverGrowerPro/blob/master/Files/HFSPlus/X64/HFSPlus.efi?raw=true)
 * [FakePCIID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/RehabMan-FakePCIID-2016-0820.zip)
-* [Generic-USB3](https://bitbucket.org/RehabMan/os-x-generic-usb3/downloads/RehabMan-Generic-USB3-2015-1215.zip)
 
 
 # Download
