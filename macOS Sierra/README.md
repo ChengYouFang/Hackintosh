@@ -11,3 +11,4 @@
 - G1.Sniper M7
 - Z170M-D3H
 - P5P43TD
+- Z97MX-Gaming 5
