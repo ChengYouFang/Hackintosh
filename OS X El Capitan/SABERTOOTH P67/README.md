@@ -6,7 +6,7 @@
 - Configure SATA as：AHCI
 - Intel Virtualization Tech：Enabled
 - Legacy USB Support：Auto
-
+- XHCI hand-off：
 
 # Hardware
 - CPU：I7-2600K
@@ -23,7 +23,7 @@
 
 
 # Download
-* [All Files]() 
+* [All Files](https://bitbucket.org/ChengYouFang/hackintosh/downloads/SABERTOOTH%20P67.zip) 
 
 
 ![]()
