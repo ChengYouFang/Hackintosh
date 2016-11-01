@@ -18,7 +18,7 @@
 - RAM：Kingston DDR3 1333 4G *2
 - HDD：Toshiba MQ01ABF050
 - BIOS Version：302
-- Wireless Chipset：Ralink RT39XX
+- Wireless Chipset：Ralink
 - Bluetooth Chipset：Ralink
 
 
