@@ -58,13 +58,13 @@
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>Cpu0Ist</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>Cpu0Ist</string>
+				<string>CpuPm</string>
 			</dict>
 		</array>
 		<key>SSDT</key>
@@ -165,6 +165,8 @@
 			<key>NVidia</key>
 			<true/>
 		</dict>
+		<key>LoadVBios</key>
+		<true/>
 		<key>NvidiaSingle</key>
 		<false/>
 	</dict>
