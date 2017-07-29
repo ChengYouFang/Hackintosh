@@ -20,7 +20,7 @@
 * [FakeSMC](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/RehabMan-FakeSMC-2016-0908.zip)
 
 # Download
-* [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/P67A-UD3P-B3_macOS%20Sierra.zip) 
+* [All Files](https://bitbucket.org/ChengYouFang/hackintosh/downloads/P67A-UD3P-B3_macOS%20Sierra.zip) 
 
 # Issue
 * USB 3.0 not working

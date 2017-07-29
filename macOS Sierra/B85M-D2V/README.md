@@ -32,6 +32,6 @@
 - 請設定好SMBIOS/Memory
 
 # Download
-* [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/B85M-D2V.zip) 
+* [All Files](https://bitbucket.org/ChengYouFang/hackintosh/downloads/B85M-D2V.zip) 
 
 ![](https://4.bp.blogspot.com/-HN5I2GBkJpw/V-bHTF4wrGI/AAAAAAAAHvU/2D5z9kESpiIHZt7YdQLxcYWim6Y4GuVQgCLcB/s1600/14449806_1269051543113954_1327680472978024726_n.jpg)

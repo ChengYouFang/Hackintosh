@@ -24,6 +24,6 @@
 * [AppleAPIC.kext binary patch for Skylake](https://pikeralpha.wordpress.com/2015/11/06/appleapic-kext-binary-patch-for-skylake/)
 
 # Download
-* [All Files](https://bitbucket.org/ChengYouFang/customac/downloads/Z170X-Gaming%205_HD530_macOS%20Sierra.zip) 
+* [All Files](https://bitbucket.org/ChengYouFang/hackintosh/downloads/Z170X-Gaming%205_HD530_macOS%20Sierra.zip) 
 
 ![](https://1.bp.blogspot.com/-ZWIUnhs3cRI/V-uqz0ImM_I/AAAAAAAAHy0/wYk60BKxRa4eL_sYkBKkbMoa4vpe5CMQwCLcB/s1600/14483411_120300000347525565_264627375_n.png)
